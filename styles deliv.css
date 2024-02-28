@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(./media/express-logistics-distribution-background-image_451302.jpg);
+  background-size: cover;
+  color: #333;
+}
+
+header {
+  background-color: #3eb83a;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0021a4;
+}
+
+nav a:hover {
+  color: #4CAF50;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#menu li {
+  margin-bottom: 5px;
+}
+
+#commande label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#commande input[type="text"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#commande select {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#commande input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#commande input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #3eb83a;
+  padding: 20px;
+  text-align: center;
+}

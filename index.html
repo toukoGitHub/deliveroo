@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page de livraison de repas</title>
+    <link rel="stylesheet" href="styles deliv.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#commande">Passer une commande</a></li>
+          <li><a href="#suivi">Suivi de commande</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="menu">
+        <h1>Menu de la semaine</h1>
+        <ul>
+          <li>Poulet rôti</li>
+          <li>Poisson grillé</li>
+          <li>Pâtes carbonara</li>
+        </ul>
+      </section>
+      <section id="commande">
+        <h1>Passer une commande</h1>
+        <form action="submit-order.php" method="post">
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom"><br>
+          <label for="Téléphone"> Telephone :</label>
+          <input type="text" id="Telephone" name="Telephone"><br>
+          <label for="adresse">Adresse :</label>
+          <input type="text" id="adresse" name="adresse"><br>
+          <label for="menu">Sélectionnez un plat du menu :</label>
+          <select id="menu" name="menu">
+            <option value="poulet">Poulet rôti</option>
+            <option value="poisson">Poisson grillé</option>
+            <option value="pates">Pâtes carbonara</option>
+          </select><br>
+          <input type="submit" value="Passer la commande">
+        </form>
+      </section>
+      <section id="suivi">
+        <h1>Suivi de commande</h1>
+        <p>Votre commande est en cours de traitement. <br><strong>Vous recevrez une notification lorsque votre livreur sera en route.</strong></p>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2021, Entreprise de livraison de repas en ligne</p>
+    </footer>
+    <script src="jsdeliv.js"></script>
+  </body>
+</html>
